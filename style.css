@@ -84,7 +84,7 @@ ul li.active a{
   color: #fff;
   font-size: 60px;
   position: relative;
-  left: 60%;
+  left: 30%;
 }
 .wrapper{
     position: absolute;
@@ -194,7 +194,7 @@ input,textarea{
   }
   .box h1{
 
-    font-size: 65px;
+    font-size: 60px;
     letter-spacing: 4px;
     font-weight: 100;
   }
