@@ -17,25 +17,34 @@
                 <li>  <a href="Contact.html">Contact</a></li>
             </ul>
         </div>
-         <div class="w3-light-grey w3-padding-large w3-padding-32 w3-margin-top" id="contact">
+         <div class="contacts" id="contact">
     <hr>
     <p>Any suggestions? Contact me!.</p>
-    <form action="/action_page.php" target="_blank">
-      <div class="w3-section">
-        <label>Name</label>
-        <input class="w3-input w3-border" type="text" required name="Name">
-      </div>
-      <div class="w3-section">
-        <label>Email</label>
-        <input class="w3-input w3-border" type="text" required name="Email">
-      </div>
-      <div class="w3-section">
-        <label>Message</label>
-        <input class="w3-input w3-border" required name="Message">
-      </div>
-      <button type="submit" class="w3-button w3-block w3-dark-grey">Send</button>
-    </form><br>
-    <p>Powered by: Makati Student Hackers</a></p>
+    <div class="container">
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+        <option value="usa">Philippines</option>
+        <option value="usa">Italy</option>
+        <option value="usa">New Zealand</option>
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+        <p>Powered by: Makati Student Hackers</a></p>
+  </form>
   </div>
     </header>
 </body>
